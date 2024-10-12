@@ -1,5 +1,5 @@
-Codes in Python about Computational Vision
+# 📝🔒 Computational Vision
+This repository centralizes Python algorithms for Computational Vision (CV). All codes were made with Google Colab. In addition to the codes, links and references to others resources.
 
-Others Links
-
-https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#awesome-lists
+### Others Links
+- [x] Awesome Computer Vision Repository: https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#awesome-lists
