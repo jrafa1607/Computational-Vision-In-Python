@@ -6,6 +6,8 @@ O problema encontrado neste sistema de embalamento é o número de pacotes com q
 
 A idéia é que, após o funcionário colocar o conjunto de produtos na esteira, uma imagem seja adquirida por uma câmera e analisada pelo sistema de inspeção, o qual pode ainda enviar um comando de decisão para um mecanismo que descarta os conjuntos fora das especificações.
 
+##Objetivos
+
 Desta forma, o objetivo é desenvolver um sistema de inspeção visual para auxiliar o processo de embalamento. Para tanto, apenas uma linha de produtos será considerada nos testes. 
 - [x] Nessa linha de produtos, cada conjunto deve possuir 10 parafusos e 10 porcas.
 - [x] Dada uma imagem RGB do conjunto de parafusos e porcas, o sistema de visão computacional deve analisar a imagem;
