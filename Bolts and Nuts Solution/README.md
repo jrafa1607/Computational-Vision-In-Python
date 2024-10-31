@@ -15,3 +15,7 @@ Desta forma, o objetivo é desenvolver um sistema de inspeção visual para auxi
 - [x] Caso reprovado, o sistema deverá exibir uma mensagem informando quantos parafusos ou porcas estão sobrando ou faltando, conforme exemplos abaixo.
 
 <img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/img00.jpg">
+
+## Gabarito
+
+<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/Gabarito.jpeg">
