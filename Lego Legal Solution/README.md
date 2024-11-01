@@ -15,4 +15,4 @@ O resultado do processamento (um conjunto de dados) é então enviado para um me
 
 Sua missão é desenvolver um sistema de inspeção visual para atender ao objetivo proposto. Para tanto, dada uma imagem colorida (RGB) do conjunto de peças, o sistema computacional deve gerar uma saída informando, para cada peça, a localização na imagem, o tipo e a caixa que ela dever ser colocada, conforme exemplo abaixo:
 
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/img00.jpg">
+<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Lego%20Legal%20Solution/-%20Anexos/res01.jpeg">
