@@ -1,20 +1,18 @@
 # Lego Legal
-A empresa Lego Legal, fabricante de peças para lego, possui uma linha de produção semiautomatizada para embalamento dos seus produtos que funciona da seguinte maneira: após o processo de fabricação, as peças são colocadas em uma esteira automatizada e um pouco mais adiante, no setor de embalagem, um funcionário as retira e as coloca em caixas de acordo com suas especificações, descritas na Tabela 1 a seguir.
+A empresa <b> Lego Legal</b>, fabricante de peças para lego, possui uma linha de produção semiautomatizada para embalamento dos seus produtos que funciona da seguinte maneira: 
+- Após o processo de fabricação, as peças são colocadas em uma esteira automatizada
+- Pouco mais adiante, no setor de embalagem, um funcionário as retira e as coloca em caixas de acordo com suas especificações, descritas na Tabela 1 a seguir.
 
-O problema encontrado neste sistema de embalamento é o número de pacotes com quantidades de produtos fora das especificações. Após um levantamento da área de produção, ficou constatado que o problema é causado, na maioria das vezes, por falhas humanas devido à fadiga visual, principalmente nos finais de expediente. O gerente de qualidade acredita que um sistema de inspeção visual automática possa auxiliar no controle deste processo.
+<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Lego%20Legal%20Solution/-%20Anexos/table1.jpeg">
 
-A idéia é que, após o funcionário colocar o conjunto de produtos na esteira, uma imagem seja adquirida por uma câmera e analisada pelo sistema de inspeção, o qual pode ainda enviar um comando de decisão para um mecanismo que descarta os conjuntos fora das especificações.
+Um problema recorrente no processo de embalagem é o número de peças colocadas erroneamente nas caixas. Após um levantamento da gerência de produção ficou constatado que tal problema é causado, na maioria das vezes, por falha humana devido à fadiga visual, principalmente nos finais de expediente. O gerente de produção acredita que um sistema de inspeção visual automática pode auxiliar no controle deste processo.
+
+A idéia é a seguinte: Após um funcionário da área de produção colocar um conjunto de produtos na esteira, uma imagem deste conjunto é adquirida por uma câmera e processada. 
+O resultado do processamento (um conjunto de dados) é então enviado para um mecanismo (braço robótico) de separação automática das peças. 
+É importante ressaltar que o funcionário que antes separava as peças manualmente deverá ser treinado para operar o novo sistema.
 
 ## Objetivos
 
-Desta forma, o objetivo é desenvolver um sistema de inspeção visual para auxiliar o processo de embalamento. Para tanto, apenas uma linha de produtos será considerada nos testes. 
-- [x] Nessa linha de produtos, cada conjunto deve possuir 10 parafusos e 10 porcas.
-- [x] Dada uma imagem RGB do conjunto de parafusos e porcas, o sistema de visão computacional deve analisar a imagem;
-- [x] Feita a análise, o sistema deve emitir uma mensagem informando se o conjunto está aprovado ou reprovado.
-- [x] Caso reprovado, o sistema deverá exibir uma mensagem informando quantos parafusos ou porcas estão sobrando ou faltando, conforme exemplos abaixo.
+Sua missão é desenvolver um sistema de inspeção visual para atender ao objetivo proposto. Para tanto, dada uma imagem colorida (RGB) do conjunto de peças, o sistema computacional deve gerar uma saída informando, para cada peça, a localização na imagem, o tipo e a caixa que ela dever ser colocada, conforme exemplo abaixo:
 
 <img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/img00.jpg">
-
-## Gabarito
-
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/Gabarito.jpeg">
