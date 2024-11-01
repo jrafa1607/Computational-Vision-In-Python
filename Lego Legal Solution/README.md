@@ -1,6 +1,5 @@
-# Bolts & Nuts
-A <b> Bolts & Nuts </b>, fabricante de parafusos, porcas e arruelas possui uma linha de produção semi-automatizada para embalamento dos seus produtos. 
-O sistema funciona da seguinte maneira: um funcionário retira os produtos de uma caixa vinda da produção, conta os produtos de acordo com as especificações e os coloca em uma esteira que leva cada conjunto à uma máquina que embala os produtos em sacos plásticos personalizados.
+# Lego Legal
+A empresa Lego Legal, fabricante de peças para lego, possui uma linha de produção semiautomatizada para embalamento dos seus produtos que funciona da seguinte maneira: após o processo de fabricação, as peças são colocadas em uma esteira automatizada e um pouco mais adiante, no setor de embalagem, um funcionário as retira e as coloca em caixas de acordo com suas especificações, descritas na Tabela 1 a seguir.
 
 O problema encontrado neste sistema de embalamento é o número de pacotes com quantidades de produtos fora das especificações. Após um levantamento da área de produção, ficou constatado que o problema é causado, na maioria das vezes, por falhas humanas devido à fadiga visual, principalmente nos finais de expediente. O gerente de qualidade acredita que um sistema de inspeção visual automática possa auxiliar no controle deste processo.
 
