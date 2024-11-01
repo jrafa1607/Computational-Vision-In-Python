@@ -11,7 +11,7 @@ A idéia é a seguinte: Após um funcionário da área de produção colocar um 
 O resultado do processamento (um conjunto de dados) é então enviado para um mecanismo (braço robótico) de separação automática das peças. 
 É importante ressaltar que o funcionário que antes separava as peças manualmente deverá ser treinado para operar o novo sistema.
 
-## Objetivos
+## Objetivo
 
 Sua missão é desenvolver um sistema de inspeção visual para atender ao objetivo proposto. Para tanto, dada uma imagem colorida (RGB) do conjunto de peças, o sistema computacional deve gerar uma saída informando, para cada peça, a localização na imagem, o tipo e a caixa que ela dever ser colocada, conforme exemplo abaixo:
 
