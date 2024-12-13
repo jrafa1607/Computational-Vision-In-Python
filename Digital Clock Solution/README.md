@@ -15,4 +15,4 @@ Exemplo de Resultado:
 
 ## Gabarito
 
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/Gabarito.jpeg">
+<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Digital%20Clock%20Solution/Anexos/Gabarito.jpeg">
