@@ -2,9 +2,6 @@
 > This repository serves as a centralized collection of **Python-based algorithms and implementations for Computational Vision (CV)**.
 > In addition to the codes, links and references to others resources.
 
-### Others Github Repository
-- [x] Awesome Computer Vision Repository: https://github.com/jbhuang0604/awesome-computer-vision
-
 ---
 
 ### 🌟 Project Goals
@@ -41,3 +38,8 @@ This repository is organized to cover a wide range of CV topics. Key areas you w
     * Implementations of classic or simple Machine Learning models for CV (if applicable).
 * **Other Resources:**
     * A dedicated section/file for **links, academic papers, and external tutorials** that inspired or relate to the implementations.
+ 
+---
+
+### Others Github Repository
+- [x] Awesome Computer Vision Repository: https://github.com/jbhuang0604/awesome-computer-vision
