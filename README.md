@@ -22,6 +22,3 @@ All algorithms were developed and tested using **Google Colab** notebooks. This 
 * **Google Colab:** The primary execution environment (IPYNB notebooks).
  
 ---
-
-### Others Github Repository
-- [x] Awesome Computer Vision Repository: https://github.com/jbhuang0604/awesome-computer-vision
