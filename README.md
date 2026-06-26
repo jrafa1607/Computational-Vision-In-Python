@@ -20,24 +20,6 @@ All algorithms were developed and tested using **Google Colab** notebooks. This 
 * **Python:** The core programming language.
 * **Libraries:** Common CV and Data Science libraries, including **OpenCV, NumPy, Matplotlib, scikit-image, TensorFlow/PyTorch**, etc.
 * **Google Colab:** The primary execution environment (IPYNB notebooks).
-
----
-
-### 🗂️ Repository Structure & Contents
-
-This repository is organized to cover a wide range of CV topics. Key areas you will find include:
-
-* **Image Processing Fundamentals:**
-    * Filters (e.g., Gaussian, Median, Sobel)
-    * Color Space Manipulation
-    * Thresholding and Segmentation
-* **Feature Detection and Extraction:**
-    * Edge Detection (e.g., Canny, Hough Transform)
-    * Keypoint Descriptors (e.g., SIFT, ORB)
-* **Object Detection and Recognition:**
-    * Implementations of classic or simple Machine Learning models for CV (if applicable).
-* **Other Resources:**
-    * A dedicated section/file for **links, academic papers, and external tutorials** that inspired or relate to the implementations.
  
 ---
 
