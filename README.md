@@ -18,7 +18,7 @@ The primary objective of this repository is to:
 
 All algorithms were developed and tested using **Google Colab** notebooks. This ensures that the code is easily accessible, runnable, and requires **minimal setup** for users.
 * **Python:** The core programming language.
-* **Libraries:** Common CV and Data Science libraries, including **OpenCV, NumPy, Matplotlib, scikit-image, TensorFlow/PyTorch**, etc.
+* **Libraries:** Common CV libraries, including **OpenCV, NumPy, Matplotlib, scikit-image, TensorFlow/PyTorch**, etc.
 * **Google Colab:** The primary execution environment (IPYNB notebooks).
  
 ---
