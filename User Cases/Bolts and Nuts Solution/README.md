@@ -22,7 +22,7 @@ The system is designed to automatically validate the contents of packages on a s
 ## 📸 Test References
 
 ### Sample Analyzed Set
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/img00.jpg" width="400">
+<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/User%20Cases/Bolts%20and%20Nuts%20Solution/Analyzed%20Set%20(Sample).jpg">
 
 ### 📋 Reference Key (Test Data)
 The table below presents the expected results for each image analyzed, including the count of bolts, nuts, and the calculated OTSU threshold value.
