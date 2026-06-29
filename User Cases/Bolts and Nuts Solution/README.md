@@ -1,21 +1,37 @@
-# Bolts & Nuts
-A <b> Bolts & Nuts </b>, fabricante de parafusos, porcas e arruelas possui uma linha de produção semi-automatizada para embalamento dos seus produtos. 
-O sistema funciona da seguinte maneira: um funcionário retira os produtos de uma caixa vinda da produção, conta os produtos de acordo com as especificações e os coloca em uma esteira que leva cada conjunto à uma máquina que embala os produtos em sacos plásticos personalizados.
+# 🔩 Bolts & Nuts Inspection System
 
-O problema encontrado neste sistema de embalamento é o número de pacotes com quantidades de produtos fora das especificações. Após um levantamento da área de produção, ficou constatado que o problema é causado, na maioria das vezes, por falhas humanas devido à fadiga visual, principalmente nos finais de expediente. O gerente de qualidade acredita que um sistema de inspeção visual automática possa auxiliar no controle deste processo.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-green?logo=opencv)](https://opencv.org/)
 
-A idéia é que, após o funcionário colocar o conjunto de produtos na esteira, uma imagem seja adquirida por uma câmera e analisada pelo sistema de inspeção, o qual pode ainda enviar um comando de decisão para um mecanismo que descarta os conjuntos fora das especificações.
+## 📝 Project Description
+**Bolts & Nuts**, a manufacturer of metal components, aims to optimize its semi-automated packaging process. Currently, human errors caused by visual fatigue lead to packages with incorrect counts. This project proposes an **Automated Visual Inspection System** using Computer Vision to ensure final product quality.
 
-## Objetivos
+---
 
-Desta forma, o objetivo é desenvolver um sistema de inspeção visual para auxiliar o processo de embalamento. Para tanto, apenas uma linha de produtos será considerada nos testes. 
-- [x] Nessa linha de produtos, cada conjunto deve possuir 10 parafusos e 10 porcas.
-- [x] Dada uma imagem RGB do conjunto de parafusos e porcas, o sistema de visão computacional deve analisar a imagem;
-- [x] Feita a análise, o sistema deve emitir uma mensagem informando se o conjunto está aprovado ou reprovado.
-- [x] Caso reprovado, o sistema deverá exibir uma mensagem informando quantos parafusos ou porcas estão sobrando ou faltando, conforme exemplos abaixo.
+## 🎯 Objectives
+The system is designed to automatically validate the contents of packages on a specific production line, adhering to the following rules:
 
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/img00.jpg">
+- [x] **Quality Standard:** Each set must contain exactly **10 bolts** and **10 nuts**.
+- [x] **Image Processing:** RGB image capture and analysis for object detection.
+- [x] **Immediate Feedback:** Issuance of status (**Approved/Rejected**) after analysis.
+- [x] **Error Reporting:** If rejected, the system indicates exactly how many items are missing or extra.
 
-## Gabarito
+---
 
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/Gabarito.jpeg">
+## 📸 Test References
+
+### Sample Analyzed Set
+<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/img00.jpg" width="400">
+
+### Reference Key
+<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/Gabarito.jpeg" width="400">
+
+---
+
+## 🛠 Technologies Used
+* **Language:** Python
+* **Main Library:** OpenCV
+* **Concepts:** Segmentation, Contour Detection, Thresholding.
+
+---
