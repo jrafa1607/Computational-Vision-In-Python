@@ -24,8 +24,31 @@ The system is designed to automatically validate the contents of packages on a s
 ### Sample Analyzed Set
 <img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/img00.jpg" width="400">
 
-### Reference Key
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Bolts%20and%20Nuts%20Solution/Anexos/Gabarito.jpeg" width="400">
+### 📋 Reference Key (Test Data)
+The table below presents the expected results for each image analyzed, including the count of bolts, nuts, and the calculated OTSU threshold value.
+
+| Image | Bolts | Nuts | OTSU Threshold |
+| :--- | :---: | :---: | :---: |
+| Image 01 | 10 | 10 | 163.0 |
+| Image 02 | 10 | 10 | 184.0 |
+| Image 03 | 10 | 10 | 160.0 |
+| Image 04 | 5 | 10 | 142.0 |
+| Image 05 | 9 | 9 | 154.0 |
+| Image 06 | 10 | 10 | 177.0 |
+| Image 07 | 7 | 10 | 185.0 |
+| Image 08 | 7 | 10 | 136.0 |
+| Image 09 | 10 | 10 | 167.0 |
+| Image 10 | 10 | 9 | 180.0 |
+| Image 11 | 10 | 0 | 142.0 |
+| Image 12 | 10 | 10 | 168.0 |
+| Image 13 | 10 | 9 | 144.0 |
+| Image 14 | 10 | 10 | 165.0 |
+| Image 15 | 9 | 10 | 138.0 |
+| Image 16 | 0 | 10 | 146.0 |
+| Image 17 | 7 | 7 | 143.0 |
+| Image 18 | 10 | 10 | 139.0 |
+| Image 19 | 7 | 9 | 143.0 |
+| Image 20 | 10 | 10 | 164.0 |
 
 ---
 
